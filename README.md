@@ -8,5 +8,5 @@ docker build -t <container_name> <this_folder>
 
 To use container:
 ```bash
-docker run --rm -v $PDW:/vidout -i rtsp://:8555/video
+docker run --rm -v $PDW:/vidout <container_name> -i rtsp://:8555/video
 ```
